@@ -16,20 +16,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('components.depan.depan');
+Route::get('/', function () { 
+    return view('components.depan.depan',[
+        "title"=>"Spopres",
+    ]);
 });
-Route::get('/fitur', function () {
-    return view('fitur');
-});
-Route::get('/tentang', function () {
-    return view('tentang');
-});
-Route::get('/galeri', function () {
-    return view('galeri');
-});
-Route::get('/data', function () {
-    return view('data');
-});
+// Route::get('/fitur', function () {
+//     return view('fitur');
+// });
+// Route::get('/tentang', function () {
+//     return view('tentang');
+// });
+// Route::get('/galeri', function () {
+//     return view('galeri');
+// });
+// Route::get('/data', function () {
+//     return view('data');
+// });
 
 
