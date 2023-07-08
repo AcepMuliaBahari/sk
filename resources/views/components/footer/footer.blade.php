@@ -5,7 +5,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>{{ $title }}</h3>
             <p>
-              Jl.jambore No.24, RT.1/RW.11, Cibubur, Kec. Ciracas<br />
+              Jl.jambore No.24, Rt.1/Rw.11, Cibubur, Kec. Ciracas<br />
               Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 1320<br />
             
             </p>
@@ -50,7 +50,7 @@
         </div>
         <div class="credits">
           
-          Designed by <a href="">FFF</a>
+          Designed by <a href="">{{ $title }}</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

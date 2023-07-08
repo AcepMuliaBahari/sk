@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center">
       {{-- <h1 class="logo me-auto"><a href="index.html">{{ $title }}</a></h1> --}}
      
-      <a href="#" class="kemenpor logo me-5"
+      <a href="#" class="logo1 me-5"
         ><img src="{{ asset('assets/img/kemenpor/Kemenpora_Logo.png') }}" alt="" class="img-fluid"
       /></a>
       <a href="#" class="logo me-5"
